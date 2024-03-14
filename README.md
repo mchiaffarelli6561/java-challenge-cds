@@ -43,7 +43,6 @@ private static final List<Object> input =
   );
 
 private static final Map<String, Object> output = new HashMap<>();
-
 static {
     output.put("Double", 15.);
     output.put("Integer", 18);
