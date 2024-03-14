@@ -42,12 +42,13 @@ private static final List<Object> input =
     )
   );
 
-private static final Map<String, Object> output =
-  Map.of(
-    "Double", 15.,
-    "Integer", 18,
-    "String", "12"
-  );
+private static final Map<String, Object> output = new HashMap<>();
+
+static {
+    output.put("Double", 15.);
+    output.put("Integer", 18);
+    output.put("String", "12");
+}
 ```
 
 C'è una classe di test (`org.example.JavaChallengeTest`) che è stata predisposta con uno unit test utile a testare la soluzione che si è implementata.
